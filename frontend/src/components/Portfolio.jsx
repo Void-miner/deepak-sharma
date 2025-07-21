@@ -10,6 +10,7 @@ import Achievements from './Achievements';
 import Education from './Education';
 import Contact from './Contact';
 import Footer from './Footer';
+import ThemeToggle from './ThemeToggle';
 
 const Portfolio = () => {
   return (
@@ -25,6 +26,7 @@ const Portfolio = () => {
         <Contact />
       </main>
       <Footer />
+      <ThemeToggle />
     </div>
   );
 };
